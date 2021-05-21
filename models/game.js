@@ -1,4 +1,5 @@
-function(sequelize, DataTypes) {
+/// 1 err module.exports = 
+module.exports = function(sequelize, DataTypes) {
     return sequelize.define('game', {
         title: {
             type: DataTypes.STRING(25),
