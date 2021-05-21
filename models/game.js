@@ -1,4 +1,5 @@
-function(sequelize, DataTypes) {
+/// 1 err module.exports = 
+const game = function(sequelize, DataTypes) {
     return sequelize.define('game', {
         title: {
             type: DataTypes.STRING(25),
@@ -36,3 +37,4 @@ function(sequelize, DataTypes) {
         }
     })
 }
+module.exports = {game}  ;
